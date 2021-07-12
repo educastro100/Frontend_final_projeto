@@ -15,7 +15,7 @@ import { MasterComponent } from './master/master.component';
 const routes: Routes = [
 
   { path: "master", component: MasterComponent },
-  { path: "", redirectTo: "master", pathMatch: "full" },
+//  { path: "", redirectTo: "master", pathMatch: "full" },
 
   {
     path: "admin",
